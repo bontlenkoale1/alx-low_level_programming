@@ -18,8 +18,8 @@ int main(void)
 	while (sum < 2772)
 	
 	{
-		pasword[index] = 33 + rand()0 % 94;
-		sum += ppassword[index++];
+		password[index] = 33 + rand() % 94;
+		sum += password[index++];
 	}
 
 	password[index] = '\0';
@@ -59,6 +59,6 @@ int main(void)
 		}
 	}
 
-	printf("%5", password);
+	printf("%s", password);
 	return (0);
 }
