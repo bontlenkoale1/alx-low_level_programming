@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 #include <string.h>
 
 /**
@@ -14,10 +14,9 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	memset(buffer,'n',sizeof(char) *b);
-	for (int i = 0; i < n; i++)
-		s[i] = b;
-	printf("%c" unsigned int[i]);
-	printf("\n");
+	memset(s, 'n', sizeof(char) * b);
+
+	for (i = 0; i < n; i++)
+	s[i] = b;
 	return (s);
 }
