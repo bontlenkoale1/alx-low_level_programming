@@ -3,9 +3,9 @@
 
 /**
  * _memset - Entry point
- * @s: pointed to
- * @n: first bytes
- * @b: constant byte
+ * @s:pointed to
+ * @n:first byte of the memory area
+ * @b:constant byte
  *
  * Return: 0 when successful
  */
@@ -18,6 +18,6 @@ char *_memset(char *s, char b, unsigned int n)
 	memset(s, 'n', sizeof(char) * b);
 
 	for (i = 0; i < n; i++)
-	s[i] = b;
+		s[i] = b;
 	return (s);
 }
