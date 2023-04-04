@@ -6,6 +6,7 @@
  * @s: pointed to
  * @n: first bytes
  * @b: constant byte
+ *
  * Return: 0 when successful
  */
 
