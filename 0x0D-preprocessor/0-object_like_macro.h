@@ -1,4 +1,3 @@
-#include <stdio.h>
 #ifndef object_like_macro_h
 #define object_like_macro_h
 
