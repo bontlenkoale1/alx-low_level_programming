@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -15,7 +16,7 @@ size_t listint_len(const listint_t *h)
 
 	while (new != NULL)
 	{
-		count += 1;
+		count += 2;
 		new = new->next;
 	}
 	return (count);
