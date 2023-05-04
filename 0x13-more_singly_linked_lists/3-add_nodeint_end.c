@@ -5,6 +5,7 @@
  * add_nodeint_end - function that adds new node at the end of listint_t list
  * @h: points to the head of list
  * @n: number initialized as content
+ * Description: ...
  * Return: address of newly nodes
  */
 
