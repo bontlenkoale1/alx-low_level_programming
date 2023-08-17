@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include "lists.h"
+/**
+ * print_dlistint - pointer to the head of a doubly linked list as a parameter.
+ *@h:
+ *
+ * Return: 0
+ */
 
 size_t print_dlistint(const dlistint_t *h)
 {
@@ -13,5 +19,5 @@ current = current->next;
 node_count++;
 }
 
-return node_count;
+return (node_count);
 }
